@@ -1,9 +1,19 @@
+/*general*/
+/* body {
+    font-family: Arial;
+    font-size: .8rem;
+} */
+li {
+    list-style: none;
+}
+
+/*utilities*/
 .debug {
     border: 1px solid red;
 }
 
 .debug-2 {
-    border: 1px dotted blue;
+    border: 1px solid yellow;
 }
 .bg_white {
     background-color: white;
@@ -17,11 +27,10 @@
     color: #5B5858;
 }
 
+/*header*/
+
 header {
     height: 60px;
-}
-
-.bg-header {
     background-color: #F8F9FA;
 }
 
@@ -29,10 +38,54 @@ header {
     width: 50px;
 }
 
-/* #logo img {
-    width: 110%;
-} */
-
 .dropdown:hover {
     cursor: pointer;
+}
+
+/*aside*/
+aside {
+    width: 120px;
+    height: calc(100vh - 60px);
+    background-color: #051E34;
+    background-image: url(../img/sidebar-bg.png);
+}
+
+aside .container {
+    font-size: .8rem;
+}
+
+#top-home-icon::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f015";
+    display: inline-block;
+    padding-right: 3px;
+    /* vertical-align: middle; */
+    font-weight: 900;
+}
+
+#top-stats-icon::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\e473";
+    display: inline-block;
+    padding-right: 3px;
+    /* vertical-align: middle; */
+    font-weight: 900;
+}
+
+#top-signals-icon::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f012";
+    display: inline-block;
+    padding-right: 3px;
+    /* vertical-align: middle; */
+    font-weight: 900;
+
+}
+#bot-admin-icon::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f013";
+    display: inline-block;
+    padding-right: 3px;
+    /* vertical-align: middle; */
+    font-weight: 900;
 }
