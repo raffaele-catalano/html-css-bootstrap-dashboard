@@ -1,0 +1,38 @@
+.debug {
+    border: 1px solid red;
+}
+
+.debug-2 {
+    border: 1px dotted blue;
+}
+.bg_white {
+    background-color: white;
+}
+
+.text-orange {
+    color: #FF8F00;
+}
+
+.text-gray {
+    color: #5B5858;
+}
+
+header {
+    height: 60px;
+}
+
+.bg-header {
+    background-color: #F8F9FA;
+}
+
+#mobile-logo img {
+    width: 50px;
+}
+
+/* #logo img {
+    width: 110%;
+} */
+
+.dropdown:hover {
+    cursor: pointer;
+}

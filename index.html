@@ -16,6 +16,42 @@
 
 <body>
     
+    <header class="fixed-top bg-header">
+        <div class="container-fluid h-100">
+            <div class="row h-100 align-items-center">
+                <!-- sezione logo -->
+                <div id="mobile-logo" class="col-auto d-lg-none">
+                    <img src="assets/img/mobile-logo.png" alt="mobile-logo">
+                </div>
+                <div id="logo" class="col-auto d-none d-lg-block me-2">
+                    <img src="assets/img/logo.svg" alt="logo">
+                </div>
+                <!-- sezione barra ricerca -->
+                <div class="col">
+                    <form class="d-flex" role="search">
+                        <input class="form-control" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
+                    </form>
+                </div>
+                <!-- sezione destra icone -->
+                <div class="col-auto d-none d-lg-block text-gray">
+                    <i class="fa-solid fa-list-ul pe-2"></i>
+                    <i class="fa-solid fa-circle-question pe-2"></i>
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+                <!-- sezione destra dropdown -->
+                <div class="col-auto text-orange">
+                    <div class="dropdown">
+                        <i class="fa-solid fa-bell" data-bs-toggle="dropdown" aria-expanded="false"></i>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
     
 </body>
 
