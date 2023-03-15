@@ -11,6 +11,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <!-- link css -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/img/favicon_dash.jpeg" type="image/x-icon">
     <title>Dashboard</title>
 </head>
 
@@ -65,9 +66,9 @@
                     <div class="row">
                         <div class="col top-items">
                             <ul class="list-unstyled">
-                                <li><i class="side-content-item fa-solid fa-house ps-3 pb-2"></i><span class="d-none d-lg-inline-block ps-2">Home</span></li>
-                                <li><i class="side-content-item fa-solid fa-chart-simple ps-3 pb-2"></i><span class="d-none d-lg-inline-block ps-2">Stats</span></li>
-                                <li><i class="side-content-item fa-solid fa-signal ps-3"></i><span class="d-none d-lg-inline-block ps-2">Signals</span></li>
+                                <li><i class="side-content-item fa-solid fa-house ps-2 pb-3"></i><span class="d-none d-lg-inline-block ps-2">Home</span></li>
+                                <li><i class="side-content-item fa-solid fa-chart-simple ps-2 pb-3"></i><span class="d-none d-lg-inline-block ps-2">Stats</span></li>
+                                <li><i class="side-content-item fa-solid fa-signal ps-2"></i><span class="d-none d-lg-inline-block ps-2">Signals</span></li>
                             </ul>
                         </div>
                     </div>
@@ -79,7 +80,7 @@
                     <div class="row">
                         <div class="col bot-items">
                             <ul class="list-unstyled d-flex flex-column">
-                                <li><i class="side-content-item fa-solid fa-gear ps-3"></i><span class="d-none d-lg-inline-block ps-2">Admin</span></li>
+                                <li><i class="side-content-item fa-solid fa-gear ps-2"></i><span class="d-none d-lg-inline-block ps-2">Admin</span></li>
                             </ul>
                         </div>
                     </div>
@@ -223,23 +224,23 @@
                             </div>
 
                             <!-- tabella classi -->
-                            <div class="content-table">
+                            <div class="card-body">
                                 <table class="table table-hover">
 
-                                    <thead class="bg_lightgray">
+                                    <thead>
                                         <tr>
-                                            <th scope="col">Nome</th>
-                                            <th scope="col">Data Inizio</th>
-                                            <th scope="col">ROI</th>
-                                            <th scope="col">Stato</th>
-                                            <th scope="col">Azioni</th>
+                                            <td scope="col">Nome</td>
+                                            <td scope="col">Data Inizio</td>
+                                            <td scope="col">ROI</td>
+                                            <td scope="col">Stato</td>
+                                            <td scope="col">Azioni</td>
                                         </tr>
                                     </thead>
 
                                     <tbody class="table-group-divider">
 
                                         <tr>
-                                            <td>Classe 75</td>
+                                            <td class="class_avatar">Classe 75</td>
                                             <td>15 Feb 2021</td>
                                             <td>20%</td>
                                             <td><span class="badge bg-success">Done</span></td>
@@ -326,56 +327,122 @@
                         </div>
 
                         <!-- card con accordion -->
-                        <div class="card">
+                        <div class="card mb-3">
 
                             <div class="card-header">
                                 <h3 class="text-dark">F.A.Q.</h3>
                             </div>
 
-                            <div class="accordion" id="accordionExample">
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingOne">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        Come aggiungere un nuovo studente?
-                                    </button>
-                                    </h2>
-                                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <code>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</code>  Repellendus voluptate saepe nesciunt, <strong>eligendi velit consequatur dignissimos deleniti numquam cum vero ducimus quia.</strong>  Blanditiis molestias unde a voluptate consectetur magni nostrum dicta, placeat velit excepturi accusantium.
+                            <div class="card-body">
+                                <div class="accordion" id="accordionExample">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            Come aggiungere un nuovo studente?
+                                        </button>
+                                        </h2>
+                                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <code>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</code>  Repellendus voluptate saepe nesciunt, <strong>eligendi velit consequatur dignissimos deleniti numquam cum vero ducimus quia.</strong>  Blanditiis molestias unde a voluptate consectetur magni nostrum dicta, placeat velit excepturi accusantium.
+                                        </div>
+                                        </div>
                                     </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            Come posso accedere alle informazione del mio account?
+                                        </button>
+                                        </h2>
+                                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. <code>Officiis reiciendis iusto consequuntur iure suscipit vel distinctio fugiat aliquid temporibus doloremque amet</code>, excepturi aliquam et incidunt necessitatibus inventore beatae praesentium ducimus illum tempora? Hic aut ipsam a provident beatae. Enim, aspernatur!
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            Posso usare questa dashboard da mobile?
+                                        </button>
+                                        </h2>
+                                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <strong>Lorem ipsum dolor sit, amet consectetur adipisicing.</strong> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore explicabo soluta neque et quidem nam, fugit ratione facilis. Reiciendis veritatis dicta perferendis natus consequatur porro, excepturi ratione laudantium! Excepturi aliquam eligendi exercitationem aspernatur, mollitia et!
+                                        </div>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingTwo">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        Come posso accedere alle informazione del mio account?
-                                    </button>
-                                    </h2>
-                                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. <code>Officiis reiciendis iusto consequuntur iure suscipit vel distinctio fugiat aliquid temporibus doloremque amet</code>, excepturi aliquam et incidunt necessitatibus inventore beatae praesentium ducimus illum tempora? Hic aut ipsam a provident beatae. Enim, aspernatur!
-                                    </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingThree">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                        Posso usare questa dashboard da mobile?
-                                    </button>
-                                    </h2>
-                                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <strong>Lorem ipsum dolor sit, amet consectetur adipisicing.</strong> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore explicabo soluta neque et quidem nam, fugit ratione facilis. Reiciendis veritatis dicta perferendis natus consequatur porro, excepturi ratione laudantium! Excepturi aliquam eligendi exercitationem aspernatur, mollitia et!
-                                    </div>
-                                    </div>
-                                </div>
-                                </div>
+
+                            </div>
 
                         </div>
 
                     </div>
 
-                    <div class="col-auto">
+                    <div class="col-4 pt-2">
+
+                        <!-- card ToDo -->
+                        <div class="card mb-3">
+
+                            <div class="card-header">
+                                <h3 class="text-dark">To Do</h3>
+                            </div>
+
+                            <div class="card-body">
+                                <div class="card">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Kickoff nuove Classi
+                                                </label>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Lezione su Bootstrap 5 in classe #94
+                                                </label>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Controllare Username <code>Github</code> studenti
+                                                </label>
+                                            </div>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+
+                            </div>
+                            
+                        </div>
+
+                        <!-- card grafico -->
+                        <div class="card">
+
+                            <div class="card-body text-dark">
+                                <div class="card">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">
+                                            <img class="w-100 mb-2" src="assets/img/stats.jpeg" alt="stats">
+                                            <h4>Utenti Attivi</h4>
+                                            <span>Lista degli utenti attivi in piattaforma nell'ultimo mese</span>
+                                        </li>
+                                        <li class="list-group-item">Gennaio: 1200</li>
+                                        <li class="list-group-item">Febbraio: 800</li>
+                                        <li class="list-group-item">Marzo: 1500</li>
+                                        <li class="list-group-item"><a href="#" class="card-link text-primary">Visualizza Report Approfondito</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
 
                     </div>
 
