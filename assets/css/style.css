@@ -103,7 +103,12 @@ main {
 }
 
 /*MAIN*/ /*content-middle*/
-
+.dev-code {
+    color: white;
+    background-color: #F26551;
+    padding: 5px 4px;
+    border-radius: 50%;
+}
 
 
 /*RESPONSIVE*/
