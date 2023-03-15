@@ -74,7 +74,7 @@ header {
 .side-menu li:hover {
     background-color: rgba(255, 255, 255, .3);
     cursor: pointer;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 /*MAIN*/ /*main-content*/
