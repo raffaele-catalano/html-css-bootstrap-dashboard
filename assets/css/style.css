@@ -12,7 +12,7 @@ a {
 /*UTILITIES*/
 .debug {
     border: 1px solid red;
-    background-color: rgba(255, 0, 0, .5);
+    /* background-color: rgba(255, 0, 0, .5); */
 }
 
 .debug-2 {
@@ -52,7 +52,7 @@ header {
 
 /*MAIN*/ /*side-menu*/
 .side-menu {
-    width: 120px;
+    width: 150px;
     height: calc(100vh - 60px);
     background-color: #051E34;
     background-image: url(../img/sidebar-bg.png);
@@ -62,47 +62,20 @@ header {
     font-size: .9rem;
 }
 
-/* #top-home-icon::before {
-    font-family: "Font Awesome 5 Free";
-    content: "\f015";
-    display: inline-block;
-    padding-right: 3px;
-    vertical-align: middle;
-    font-weight: 900;
+.side-menu .side-content-item.fa-solid {
+    width: 30px;
 }
-
-#top-stats-icon::before {
-    font-family: "Font Awesome 5 Free";
-    content: "\e473";
-    display: inline-block;
-    padding-right: 3px;
-    vertical-align: middle;
-    font-weight: 900;
-}
-
-#top-signals-icon::before {
-    font-family: "Font Awesome 5 Free";
-    content: "\f012";
-    display: inline-block;
-    padding-right: 3px;
-    vertical-align: middle;
-    font-weight: 900;
-
-}
-#bot-admin-icon::before {
-    font-family: "Font Awesome 5 Free";
-    content: "\f013";
-    display: inline-block;
-    padding-right: 3px;
-    vertical-align: middle;
-    font-weight: 900;
-} */
 
 /*MAIN*/ /*main-content*/
+main {
+    padding-top: 60px;
+}
+
 .main-content {
-    width: calc(100vw - 120px);
+    width: calc(100vw - 150px);
     height: calc(100vh - 60px);
-    float: right;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .main-content .content-top-bar {
