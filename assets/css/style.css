@@ -57,7 +57,7 @@ header {
 
 /*MAIN*/ /*side-menu*/
 .side-menu {
-    width: 150px;
+    width: 60px;
     height: calc(100vh - 60px);
     background-color: #051E34;
     background-image: url(../img/sidebar-bg.png);
@@ -77,7 +77,7 @@ main {
 }
 
 .main-content {
-    width: calc(100vw - 150px);
+    width: calc(100vw - 60px);
     height: calc(100vh - 60px);
     overflow-y: auto;
     overflow-x: hidden;
@@ -102,4 +102,15 @@ main {
     --bs-offcanvas-width: 800px;
 }
 
-/*MAIN*/ /*content-left*/
+/*MAIN*/ /*content-middle*/
+
+
+
+/*RESPONSIVE*/
+@media screen and (min-width:992px) {
+    
+    main .side-menu {
+        width: 150px;
+    }
+
+}
