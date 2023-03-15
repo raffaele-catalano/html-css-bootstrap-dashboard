@@ -92,6 +92,7 @@ main {
 .badge {
     font-size: .8rem;
     background-color: rgba(0, 0, 0, .3);
+    border-radius: 15px;
 }
 
 .badge:hover {
