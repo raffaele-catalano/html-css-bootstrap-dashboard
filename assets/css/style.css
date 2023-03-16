@@ -1,8 +1,7 @@
 /*GENERAL*/
-/* body {
-    font-family: Arial;
-    font-size: .8rem;
-} */
+body {
+    font-family: 'Roboto', sans-serif;
+}
 
 a {
     text-decoration: none;

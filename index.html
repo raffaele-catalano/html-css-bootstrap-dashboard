@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <!-- font-awesome -->
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css' integrity='sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==' crossorigin='anonymous'/>
     <!-- bootstrap css -->
@@ -154,7 +158,9 @@
                                         <div class="col">
                                             <label class="email mb-2" for="email">Email</label>
                                             <div class="input-group">
-                                                    <div class="input-group-text">@</div>
+                                                    <div class="input-group-text">
+                                                        <span class="fw-bold">@</span>
+                                                    </div>
                                                     <input type="text" class="form-control" id="inlineFormInputGroup">
                                             </div>
                                         </div>
@@ -210,8 +216,10 @@
                                     </div>
                                     <!-- bottoni -->
                                     <div class="row">
-                                        <div class="col-1 me-1"><button type="button" class="btn btn-primary">Salva</button></div>
-                                        <div class="col-1"><button type="button" class="btn btn-warning">Svuota</button></div>
+                                        <div class="col-12 me-2">
+                                            <button type="submit" class="btn btn-primary">Salva</button>
+                                            <button type="reset" class="btn btn-warning">Svuota</button>
+                                        </div>
                                     </div>
                                 </form>
                                 
